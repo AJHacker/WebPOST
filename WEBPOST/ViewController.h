@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    IBOutlet UITextView *outputText;
+     IBOutlet UITextField *field;
+     IBOutlet UIButton *b;
+    }
+-(IBAction)PostAction:(id) sender;
+-(IBAction)TextDoneEditing:(id) sender;
+
 
 @end
